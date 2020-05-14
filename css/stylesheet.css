@@ -6,7 +6,7 @@
 *  This Stylesheet contains all the Styling
 *  for the Website
 *******************************************/
-body {
+.homePageBody {
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
@@ -24,7 +24,40 @@ body {
   }
 }
 
-footer {
-  bottom: 0;
+/* center the Coming Soon Text */
+.comingSoonSection {
+  text-align: center;
+}
+
+/* Change the Kink Color Page-wide */
+a {
+  background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  background-size: 200% auto;
+  animation: aGradAnim 2s ease infinite;
+}
+/* Animating body Background Gradient */
+@keyframes aGradAnim {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+/* Set the Site Footer to Bottom */
+.siteFooter {
   position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: beige;
 }
