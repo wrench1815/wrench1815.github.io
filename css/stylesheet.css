@@ -1,0 +1,30 @@
+/******************************************
+*  Author : Hardeep Kumar   
+*  Created On : Thu May 14 2020
+*  File : stylesheet.css
+*
+*  This Stylesheet contains all the Styling
+*  for the Website
+*******************************************/
+body {
+  background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
+  background-size: 600% 600%;
+  animation: bgGradAnim 20s ease infinite;
+}
+/* Animating body Background Gradient */
+@keyframes bgGradAnim {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+}
