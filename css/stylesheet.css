@@ -6,6 +6,10 @@
 *  This Stylesheet contains all the Styling
 *  for the Website
 *******************************************/
+* {
+  box-sizing: border-box;
+}
+
 .homePageBody {
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
