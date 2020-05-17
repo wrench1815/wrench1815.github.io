@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-/* Change the Kink Color Page-wide */
+/* Change the Link Color Page-wide */
 a {
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   -webkit-background-clip: text;
@@ -52,6 +52,63 @@ a {
   }
 }
 
+/* Header */
+.header {
+  background-color: whitesmoke;
+  padding: 3px;
+  font-size: 21px;
+  background: linear-gradient(270deg, #b93131, #9ee4d8, #b93131);
+  animation: headerGradAnim 4s ease infinite;
+  background-size: 600% 600%;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.418),
+    0 10px 20px 0 rgba(0, 0, 0, 0.274);
+}
+
+@keyframes headerGradAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.over_header {
+  background-color: #f3f2ed;
+  padding: 20px 10px;
+}
+
+.header_right {
+  float: right;
+}
+
+.header a {
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.home {
+  /* font-size: 21px; */
+  padding: 10px;
+}
+
+.blog {
+  padding: 10px;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.about {
+  padding: 10px;
+}
 /* Set the Site Footer to Bottom */
 .siteFooter {
   position: fixed;
