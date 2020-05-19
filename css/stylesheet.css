@@ -30,7 +30,7 @@
 }
 
 /* Change the Link Color Page-wide */
-a {
+.linkGrad {
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   -webkit-background-clip: text;
   background-clip: text;
