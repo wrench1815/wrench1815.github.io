@@ -25,11 +25,6 @@
   }
 }
 
-/* center the Coming Soon Text */
-.comingSoonSection {
-  text-align: center;
-}
-
 /* Change the Link Color Page-wide */
 .linkGrad {
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
@@ -109,6 +104,60 @@
 
 .about {
   /* padding: 10px; */
+}
+
+/* self class */
+.welcome {
+  background-color: aliceblue;
+  background-size: auto;
+}
+
+.welcome_head {
+  color: rgb(54, 53, 53);
+  text-align: center;
+}
+
+.welcome_para {
+  color: rgba(48, 47, 47, 0.932);
+  text-align: center;
+}
+
+.self {
+  background-color: aliceblue;
+  background-size: auto;
+  padding-block-end: 10px;
+}
+
+.self_head {
+  text-align: center;
+  color: rgba(48, 47, 47, 0.932);
+}
+
+.self_para {
+  text-align: center;
+  color: rgba(48, 47, 47, 0.932);
+}
+
+.self_button {
+  border-style: none;
+  background-color: rgb(27, 156, 113);
+  color: white;
+  padding: 9px 22px;
+  border-radius: 4.5px;
+  transition-duration: 0.5s;
+  margin: auto;
+  display: block;
+  border-style: solid;
+  border-color: transparent;
+}
+
+/* button hover */
+.self_button:hover {
+  background-color: rgb(163, 161, 161);
+  color: rgb(65, 65, 65);
+  padding: 9px 22px;
+  border-color: #27a80d;
+  transition: linear;
 }
 /* Set the Site Footer to Bottom */
 .siteFooter {
