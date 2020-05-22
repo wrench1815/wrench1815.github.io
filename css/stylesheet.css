@@ -188,7 +188,6 @@
   padding: 8px;
   filter: blur(0.5px);
   display: inline-block;
-
 }
 
 #tic_tac_toe:hover {
@@ -296,5 +295,9 @@
 
 /* Set the Site Footer to Bottom */
 .site_footer {
-  background-color: black;
+  background-color: white;
+}
+
+.footer_para {
+  
 }
