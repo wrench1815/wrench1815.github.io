@@ -6,12 +6,20 @@
 *  This Stylesheet contains all the Styling
 *  for the Website
 *******************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page_body {
   font-family: Hack, monospace;
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
+  z-index: 0;
+  filter: blur(10px);
 }
+
 /* Animating body Background Gradient */
 @keyframes bgGradAnim {
   0% {
@@ -35,6 +43,7 @@
   background-size: 200% auto;
   animation: aGradAnim 2s ease infinite;
 }
+
 /* Animating body Background Gradient */
 @keyframes aGradAnim {
   0% {
@@ -71,9 +80,14 @@
   }
 } */
 
+.test_body{
+  z-index: 2;
+}
+
 #mast {
   background-color: rgba(255, 255, 255, 0.685);
   padding: 20px;
+  z
   /* padding-bottom: 20px; */
 }
 
@@ -89,6 +103,7 @@
     0 10px 20px 0 rgba(0, 0, 0, 0.274); */
   box-shadow: 0 0 80px -10px black;
 }
+
 #header:hover {
   transform: translateY(-1px);
   /* box-shadow: 0 0 80px -10px rgb(82, 77, 77); */
@@ -299,5 +314,4 @@
 }
 
 .footer_para {
-  
 }
