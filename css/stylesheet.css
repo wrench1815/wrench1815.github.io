@@ -16,8 +16,6 @@
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
-  z-index: 0;
-  filter: blur(10px);
 }
 
 /* Animating body Background Gradient */
@@ -80,14 +78,9 @@
   }
 } */
 
-.test_body{
-  z-index: 2;
-}
-
 #mast {
   background-color: rgba(255, 255, 255, 0.685);
   padding: 20px;
-  z
   /* padding-bottom: 20px; */
 }
 
