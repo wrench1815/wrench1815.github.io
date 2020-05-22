@@ -224,7 +224,7 @@
   width: 48%;
   padding: 10px 8px 10px 8px;
   display: inline-block;
-  /* float: right; */
+  float: right;
 }
 
 #image_viewer_head {
