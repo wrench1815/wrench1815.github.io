@@ -105,11 +105,16 @@
   float: right;
 }
 
-
+.content{
+  padding-top: 30px;
+}
 /* self class */
 .welcome {
   background-color: white;
   background-size: auto;
+  display: inline-block;
+  width: 49.9%;
+  float: left;
 }
 
 .welcome_head {
@@ -126,6 +131,9 @@
   background-color: white;
   background-size: auto;
   padding-block-end: 10px;
+  display: inline-block;
+  width: 49.9%;
+  float: right;
 }
 
 .self_head {
