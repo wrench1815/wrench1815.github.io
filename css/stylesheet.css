@@ -6,7 +6,7 @@
 *  This Stylesheet contains all the Styling
 *  for the Website
 *******************************************/
-.homePageBody {
+.page_body {
   font-family: Hack, monospace;
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
@@ -71,17 +71,23 @@
   }
 } */
 
+#mast {
+  background-color: white;
+  padding: 20px;
+  /* padding-bottom: 20px; */
+}
+
 #header {
   background-color: grey;
   padding: 3px;
   font-size: 19px;
-  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.418),
-    0 10px 20px 0 rgba(0, 0, 0, 0.274);
+  /* box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.418),
+    0 10px 20px 0 rgba(0, 0, 0, 0.274); */
+  box-shadow: 0 0 80px -10px black;
 }
-
-#mast {
-  background-color: white;
-  padding: 6px;
+#header:hover {
+  transform: translateY(1px);
+  box-shadow: 0 0 80px -10px rgb(82, 77, 77);
 }
 
 /* Menu */
@@ -134,17 +140,10 @@
   /* float: right; */
 }
 
-.content {
-  padding-top: 30px;
-}
-
 /* self class */
 .welcome {
   background-color: white;
   background-size: auto;
-  display: inline-block;
-  width: 49.9%;
-  float: left;
 }
 
 .welcome_head {
@@ -157,22 +156,61 @@
   text-align: center;
 }
 
-.self {
+/* Projects */
+#projects_section {
+  background-size: auto;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#projects_section_head {
+  color: rgb(54, 53, 53);
+  text-align: center;
+}
+
+#projects_section_para {
+  color: rgb(54, 53, 53);
+  text-align: center;
+}
+
+/* Projects-> tic_tac_toe section */
+#tic_tac_toe {
+  background-size: auto;
+  background-color: rgba(128, 128, 128, 0.589);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  width: 50%;
+  padding: 8px;
+}
+
+#tic_tac_toe_head {
+  text-align: center;
+  color: rgb(43, 40, 40);
+}
+
+#tic_tac_toe_para {
+  text-align: center;
+  color: rgb(43, 40, 40);
+}
+
+#self {
   background-color: white;
   background-size: auto;
   padding-block-end: 10px;
   display: inline-block;
   width: 49.9%;
-  float: right;
+  float: left;
 }
 
-.self_head {
+#self_head {
   text-align: center;
   color: rgba(48, 47, 47, 0.932);
 }
 
-.self_para {
+#self_para {
   text-align: center;
+  font-size: 17px;
   color: rgba(48, 47, 47, 0.932);
 }
 
@@ -197,6 +235,28 @@
   border-color: #27a80d;
   transition: linear;
 }
+
+/* Contact */
+#contact_me {
+  background-color: white;
+  background-size: auto;
+  padding-block-end: 10px;
+  display: inline-block;
+  width: 49.9%;
+  float: right;
+}
+
+#contact_me_head {
+  color: rgb(54, 53, 53);
+  text-align: center;
+}
+
+#contact_me_para {
+  color: rgb(54, 53, 53);
+  font-size: 17px;
+  text-align: center;
+}
+
 /* Set the Site Footer to Bottom */
 .siteFooter {
   position: fixed;
