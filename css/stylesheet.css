@@ -14,7 +14,6 @@
 .page_body {
   font-family: Hack, monospace;
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
-  background-image: url(/images/Particles-Unsplash.jpg);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
 }
@@ -81,7 +80,8 @@
 
 #mast {
   background-color: rgba(255, 255, 255, 0.685);
-  padding: 20px;
+  padding: 10px;
+  margin: 8px;
 
   /* padding-bottom: 20px; */
 }
@@ -156,6 +156,8 @@
 
 .content {
   margin-top: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 /* self class */
 .welcome {
@@ -172,15 +174,15 @@
 .welcome_para {
   color: rgba(48, 47, 47, 0.932);
   text-align: center;
+  margin: 20px;
+  padding-bottom: 20px;
 }
 
 /* Projects */
 #projects_section {
   background-size: auto;
   background-color: white;
-  padding-bottom: 20px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 20px 8px 20px 8px;
 }
 
 #projects_section_head {
@@ -191,6 +193,7 @@
 #projects_section_para {
   color: rgb(54, 53, 53);
   text-align: center;
+  padding: 20px 0px 20px 0px;
 }
 
 /* Projects-> tic_tac_toe section */
@@ -199,13 +202,8 @@
   background-color: rgba(128, 128, 128, 0.589);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   width: 48%;
-  padding: 8px;
-  filter: blur(0.5px);
+  padding: 10px 8px 10px 8px;
   display: inline-block;
-}
-
-#tic_tac_toe:hover {
-  filter: blur(0px);
 }
 
 #tic_tac_toe_head {
@@ -224,14 +222,9 @@
   background-color: rgba(128, 128, 128, 0.589);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   width: 48%;
-  padding: 8px;
-  filter: blur(0.5px);
+  padding: 10px 8px 10px 8px;
   display: inline-block;
-  float: right;
-}
-
-#image_viewer:hover {
-  filter: blur(0px);
+  /* float: right; */
 }
 
 #image_viewer_head {
@@ -244,12 +237,17 @@
   color: rgb(43, 40, 40);
 }
 
+#info {
+  color: black;
+  background-size: ;
+}
+
 #self {
   background-color: white;
   background-size: auto;
   padding-block-end: 10px;
-  display: inline-block;
-  width: 49.9%;
+  /* display: inline-block; */
+  width: 49%;
   float: left;
 }
 
@@ -291,8 +289,8 @@
   background-color: white;
   background-size: auto;
   padding-block-end: 10px;
-  display: inline-block;
-  width: 49.9%;
+  /* display: inline-block; */
+  width: 49%;
   float: right;
 }
 
@@ -305,12 +303,4 @@
   color: rgb(54, 53, 53);
   font-size: 17px;
   text-align: center;
-}
-
-/* Set the Site Footer to Bottom */
-.site_footer {
-  background-color: white;
-}
-
-.footer_para {
 }
