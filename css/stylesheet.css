@@ -49,8 +49,7 @@
 }
 
 /* Header */
-.header {
-  background-color: whitesmoke;
+/* #header {
   padding: 3px;
   font-size: 21px;
   background: linear-gradient(270deg, #b93131, #9ee4d8, #b93131);
@@ -70,6 +69,19 @@
   100% {
     background-position: 0% 50%;
   }
+} */
+
+#header {
+  background-color: grey;
+  padding: 3px;
+  font-size: 19px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.418),
+    0 10px 20px 0 rgba(0, 0, 0, 0.274);
+}
+
+#mast {
+  background-color: white;
+  padding: 6px;
 }
 
 /* Menu */
@@ -82,7 +94,7 @@
 }
 
 .menu_item {
-  float: left;
+  float: right;
 }
 
 .menu_item:hover {
@@ -98,16 +110,34 @@
   text-shadow: black;
 }
 
-.blog{
-  /* float: right */
+#site_identity {
+  float: left;
 }
-.home{
+
+#home {
   /* float: right; */
 }
 
-.content{
+#blog {
+  /* float: right */
+}
+
+#contact {
+  /* float: right; */
+}
+
+#about {
+  /* float: right; */
+}
+
+#menu_list {
+  /* float: right; */
+}
+
+.content {
   padding-top: 30px;
 }
+
 /* self class */
 .welcome {
   background-color: white;
