@@ -14,6 +14,7 @@
 .page_body {
   font-family: Hack, monospace;
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
+  background-image: url(/images/Particles-Unsplash.jpg);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
 }
@@ -81,6 +82,7 @@
 #mast {
   background-color: rgba(255, 255, 255, 0.685);
   padding: 20px;
+
   /* padding-bottom: 20px; */
 }
 
@@ -152,10 +154,14 @@
   /* float: right; */
 }
 
+.content {
+  margin-top: 20px;
+}
 /* self class */
 .welcome {
   background-color: white;
   background-size: auto;
+  padding-top: 20px;
 }
 
 .welcome_head {
