@@ -18,6 +18,8 @@
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
+
+  
 }
 
 /* Animating Page Body Background Gradient */
@@ -199,18 +201,21 @@
   background-size: auto;
   background-color: white;
   padding: 20px 8px 20px 8px;
+  display: flow-root;
 }
 
 /* Projects id Heading */
 #projects_section_head {
   color: rgb(54, 53, 53);
   text-align: center;
+  grid-column: 1 / span 2;
 }
 
 /* Projects id Paragraph */
 #projects_section_para {
   color: rgb(54, 53, 53);
   text-align: center;
+  grid-column: 1 / span 2;
   padding: 20px 0px 20px 0px;
 }
 
@@ -221,7 +226,7 @@
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
   width: 48%;
   padding: 10px 8px 10px 8px;
-  display: inline-block;
+  float: left;
   border-radius: 20px 10px 20px 0px;
   border: transparent 1px solid;
 }
@@ -242,6 +247,7 @@
 #tic_tac_toe_para {
   text-align: center;
   color: rgb(43, 40, 40);
+  margin: 10px 0px 10px 0px;
 }
 
 /* tic_tac_toe button */
@@ -295,6 +301,7 @@
 #image_viewer_para {
   text-align: center;
   color: rgb(43, 40, 40);
+  margin: 10px 0px 10px 0px;
 }
 
 /* image_viewer button */
@@ -322,7 +329,10 @@
 
 /* Info Section */
 #info {
-  color: black;
+  background-size: auto;
+  background-color: whitesmoke;
+  padding: 20px 8px 20px 8px;
+  display: flow-root;
 }
 
 /* self Section */
