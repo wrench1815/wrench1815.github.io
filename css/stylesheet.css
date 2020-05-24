@@ -15,9 +15,10 @@
 /* Page Body */
 .page_body {
   font-family: Hack, monospace;
-  background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
-  background-size: 600% 600%;
-  animation: bgGradAnim 20s ease infinite;
+  /* background: linear-gradient(270deg, #00af82, #0057c7, #da7303); */
+  background: rgb(112, 128, 134);
+  /* background-size: 600% 600%; */
+  /* animation: bgGradAnim 20s ease infinite; */
 }
 
 /* Animating Page Body Background Gradient */
@@ -194,6 +195,14 @@
 
 /* Projects */
 #projects_section {
+  /* background-size: auto; */
+  /* background-color: white; */
+  /* padding: 20px 8px 20px 8px; */
+  display: block;
+}
+
+/* past project section */
+#past_projects_section {
   background-size: auto;
   background-color: white;
   padding: 20px 8px 20px 8px;
@@ -207,7 +216,7 @@
 }
 
 /* Projects id Paragraph */
-#projects_section_para {
+#past_projects_section_para {
   color: rgb(54, 53, 53);
   text-align: center;
   padding: 20px 0px 20px 0px;
@@ -319,6 +328,21 @@
   padding: 9px 22px;
   border-color: #27a80d;
   transition: linear;
+}
+
+/* present project section */
+#present_projects_section {
+  background-size: auto;
+  background-color: white;
+  padding: 20px 8px 20px 8px;
+  display: flow-root;
+}
+
+/* present project section para */
+#present_projects_section_para {
+  color: rgb(54, 53, 53);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
 }
 
 /* Info Section */
