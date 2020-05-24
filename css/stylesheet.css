@@ -18,8 +18,6 @@
   background: linear-gradient(270deg, #00af82, #0057c7, #da7303);
   background-size: 600% 600%;
   animation: bgGradAnim 20s ease infinite;
-
-
 }
 
 /* Animating Page Body Background Gradient */
@@ -208,14 +206,12 @@
 #projects_section_head {
   color: rgb(54, 53, 53);
   text-align: center;
-  grid-column: 1 / span 2;
 }
 
 /* Projects id Paragraph */
 #projects_section_para {
   color: rgb(54, 53, 53);
   text-align: center;
-  grid-column: 1 / span 2;
   padding: 20px 0px 20px 0px;
 }
 
@@ -339,8 +335,8 @@
 #self {
   background-color: white;
   background-size: auto;
-  padding-block-end: 10px;
   /* display: inline-block; */
+  padding: 10px 0px 10px 0px;
   width: 49%;
   float: left;
   border-radius: 0px 0px 10px 0px;
@@ -357,6 +353,7 @@
 #self_head {
   text-align: center;
   color: rgba(48, 47, 47, 0.932);
+  padding: 0px 0px 10px 0px;
 }
 
 /* slef Section Paragraph */
@@ -364,6 +361,7 @@
   text-align: center;
   font-size: 17px;
   color: rgba(48, 47, 47, 0.932);
+  padding: 0px 0px 10px 0px;
 }
 
 /* self button */
@@ -393,7 +391,7 @@
 #contact_me {
   background-color: white;
   background-size: auto;
-  padding-block-end: 10px;
+  padding: 10px 0px 10px 0px;
   /* display: inline-block; */
   width: 49%;
   float: right;
@@ -411,6 +409,7 @@
 #contact_me_head {
   color: rgb(54, 53, 53);
   text-align: center;
+  padding: 0px 0px 10px 0px;
 }
 
 /* contact paragraph */
@@ -418,6 +417,7 @@
   color: rgb(54, 53, 53);
   font-size: 17px;
   text-align: center;
+  padding: 0px 0px 10px 0px;
 }
 
 /* contact button */
@@ -441,4 +441,25 @@
   padding: 9px 22px;
   border-color: #27a80d;
   transition: linear;
+}
+
+.site_footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(163, 161, 161);
+  color: white;
+  text-align: center;
+}
+
+#footer_credits {
+  bottom: 0px;
+}
+
+#footer_link {
+  text-decoration: none;
+  color: white;
+}
+
+#footer_link:hover {
+  color: rgb(54, 53, 53);
 }
