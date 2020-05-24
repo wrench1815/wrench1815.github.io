@@ -113,8 +113,6 @@
 /* Menu */
 .menu {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.425);
 }
@@ -203,7 +201,7 @@
 }
 
 /* Projects id Heading */
-#projects_section_head {
+#past_projects_section_head {
   color: rgb(54, 53, 53);
   text-align: center;
 }
@@ -452,7 +450,12 @@
 }
 
 #footer_credits {
-  bottom: 0px;
+  text-align: center;
+}
+
+#footer_credits_host {
+  padding: 60px 20px 10px 0px;
+  text-align: right;
 }
 
 #footer_link {
@@ -462,4 +465,8 @@
 
 #footer_link:hover {
   color: rgb(54, 53, 53);
+}
+
+#footer_img {
+  width: 16px;
 }
