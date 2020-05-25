@@ -17,8 +17,9 @@
   font-family: Hack, monospace;
   /* background: linear-gradient(270deg, #00af82, #0057c7, #da7303); */
   background: rgb(112, 128, 134);
+  /* background: linear-gradient(270deg, #686767, #e7e7e5, #686767); */
   /* background-size: 600% 600%; */
-  /* animation: bgGradAnim 20s ease infinite; */
+  /* animation: bgGradAnim 5s linear infinite; */
 }
 
 /* Animating Page Body Background Gradient */
@@ -193,37 +194,37 @@
   padding-bottom: 20px;
 }
 
-/* Projects */
-#projects_section {
+/* container */
+#container {
   /* background-size: auto; */
   /* background-color: white; */
   /* padding: 20px 8px 20px 8px; */
   display: block;
 }
 
-/* past project section */
-#past_projects_section {
+/* container child */
+.container_ch {
   background-size: auto;
   background-color: white;
   padding: 20px 8px 20px 8px;
   display: flow-root;
 }
 
-/* Projects id Heading */
-#past_projects_section_head {
+/* container child Heading */
+.container_ch_h {
   color: rgb(54, 53, 53);
   text-align: center;
 }
 
-/* Projects id Paragraph */
-#past_projects_section_para {
+/* container child Paragraph */
+.container_ch_h3 {
   color: rgb(54, 53, 53);
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
 
-/* Projects-> tic_tac_toe section */
-#tic_tac_toe {
+/* box */
+.box {
   background-size: auto;
   background-color: rgba(128, 128, 128, 0.589);
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
@@ -234,27 +235,27 @@
   border: transparent 1px solid;
 }
 
-/*  tic_tac_toe Hover */
-#tic_tac_toe:hover {
+/*  box Hover */
+.box:hover {
   border: black 1px solid;
   cursor: default;
 }
 
-/* tic_tac_toe heading */
-#tic_tac_toe_head {
+/* box heading */
+#box_head {
   text-align: center;
   color: rgb(43, 40, 40);
 }
 
-/* tic_tac_toe paragraph */
-#tic_tac_toe_para {
+/* box paragraph */
+#box_para {
   text-align: center;
   color: rgb(43, 40, 40);
   margin: 10px 0px 10px 0px;
 }
 
-/* tic_tac_toe button */
-#tic_tac_toe_button {
+/* box button */
+#box_button {
   border-style: none;
   background-color: rgb(27, 156, 113);
   color: white;
@@ -267,8 +268,8 @@
   border-color: transparent;
 }
 
-/* tic_tac_toe button hover */
-#tic_tac_toe_button:hover {
+/* box button hover */
+#box_button:hover {
   background-color: rgb(163, 161, 161);
   color: rgb(65, 65, 65);
   padding: 9px 22px;
@@ -278,56 +279,11 @@
 
 /* Projects-> image_viewer */
 #image_viewer {
-  background-size: auto;
-  background-color: rgba(128, 128, 128, 0.589);
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
-  width: 48%;
-  padding: 10px 8px 10px 8px;
   float: right;
-  border-radius: 10px 20px 0px 20px;
-  border: transparent 1px solid;
 }
 
-/* image_viewer hover */
-#image_viewer:hover {
-  border: black 1px solid;
-  cursor: default;
-}
-
-/* image_viewer Heading */
-#image_viewer_head {
-  text-align: center;
-  color: rgb(43, 40, 40);
-}
-
-/* image_viewer Paragraph */
-#image_viewer_para {
-  text-align: center;
-  color: rgb(43, 40, 40);
-  margin: 10px 0px 10px 0px;
-}
-
-/* image_viewer button */
-#image_viewer_button {
-  border-style: none;
-  background-color: rgb(27, 156, 113);
-  color: white;
-  padding: 9px 22px;
-  border-radius: 4.5px;
-  transition-duration: 0.5s;
-  margin: auto;
-  display: block;
-  border-style: solid;
-  border-color: transparent;
-}
-
-/* image_viewer button hover */
-#image_viewer_button:hover {
-  background-color: rgb(163, 161, 161);
-  color: rgb(65, 65, 65);
-  padding: 9px 22px;
-  border-color: #27a80d;
-  transition: linear;
+#coming_soon{
+  float: right;
 }
 
 /* present project section */
