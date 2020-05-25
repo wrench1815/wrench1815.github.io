@@ -16,10 +16,10 @@
 .page_body {
   font-family: Hack, monospace;
   /* background: linear-gradient(270deg, #00af82, #0057c7, #da7303); */
-  background: rgb(112, 128, 134);
-  /* background: linear-gradient(270deg, #686767, #e7e7e5, #686767); */
-  /* background-size: 600% 600%; */
-  /* animation: bgGradAnim 5s linear infinite; */
+  /* background: rgb(112, 128, 134); */
+  background: linear-gradient(270deg, #686767, #e7e7e5, #686767);
+  background-size: 600% 600%;
+  animation: bgGradAnim 5s linear infinite;
 }
 
 /* Animating Page Body Background Gradient */
