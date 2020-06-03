@@ -1,17 +1,26 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my Portfolio Site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
-  "author": "",
+  "author": "Hardeep Kumar",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrench1815/wrench1815.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wrench1815/wrench1815.github.io/issues"
+  },
+  "homepage": "https://wrench1815.github.io"
 }
