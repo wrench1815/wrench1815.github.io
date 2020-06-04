@@ -14,5 +14,5 @@ var typed = new Typed('#welcome_texts_anim', {
   loop: true,
   loopCount: Infinity,
   autoInsertCss: true,
-  shuffle: true,
+  // shuffle: true,
 });
