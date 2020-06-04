@@ -17874,6 +17874,11 @@ video {
   transition-delay: 1000ms;
 }
 
+.typed-cursor {
+  font-size: 18px;
+  padding-top: 80px;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
