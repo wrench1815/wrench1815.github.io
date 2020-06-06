@@ -6049,12 +6049,12 @@ video {
   clear: none;
 }
 
-.font-body {
+.font-varela {
   font-family: Varela, sans-serif;
 }
 
-.font-display {
-  font-family: Varela, sans-serif;
+.font-hack {
+  font-family: Hack, monospace;
 }
 
 .font-hairline {
@@ -17877,13 +17877,17 @@ video {
 @font-face {
   font-family: 'Hack';
 
-  src: url(../Hack/hack.css);
+  /* src: url(../Hack/hack.css); */
+
+  src: local('/Hack/hack.css');
 }
 
 @font-face {
   font-family: 'Varela';
 
-  src: url(../Varela/styles.css);
+  /* src: url(../Varela/styles.css); */
+
+  src: local('/Varela/styles.css');
 }
 
 .typed-cursor {
@@ -23404,12 +23408,12 @@ video {
     clear: none;
   }
 
-  .sm\:font-body {
+  .sm\:font-varela {
     font-family: Varela, sans-serif;
   }
 
-  .sm\:font-display {
-    font-family: Varela, sans-serif;
+  .sm\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .sm\:font-hairline {
@@ -40661,12 +40665,12 @@ video {
     clear: none;
   }
 
-  .md\:font-body {
+  .md\:font-varela {
     font-family: Varela, sans-serif;
   }
 
-  .md\:font-display {
-    font-family: Varela, sans-serif;
+  .md\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .md\:font-hairline {
@@ -57918,12 +57922,12 @@ video {
     clear: none;
   }
 
-  .lg\:font-body {
+  .lg\:font-varela {
     font-family: Varela, sans-serif;
   }
 
-  .lg\:font-display {
-    font-family: Varela, sans-serif;
+  .lg\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .lg\:font-hairline {
@@ -75175,12 +75179,12 @@ video {
     clear: none;
   }
 
-  .xl\:font-body {
+  .xl\:font-varela {
     font-family: Varela, sans-serif;
   }
 
-  .xl\:font-display {
-    font-family: Varela, sans-serif;
+  .xl\:font-hack {
+    font-family: Hack, monospace;
   }
 
   .xl\:font-hairline {
