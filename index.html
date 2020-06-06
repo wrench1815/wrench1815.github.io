@@ -8,9 +8,9 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="/public/build/tailwind.css" />
-    <link rel="stylesheet" href="/Varela/styles.css" />
-    <script src="/js/typed.js/typed.min.js"></script>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <script src="js/typed.js/typed.min.js"></script> -->
+    <script src="/node_modules/typed.js/lib/typed.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <meta name="author" content="Hardeep Kumar" />
     <title>Home</title>
@@ -18,10 +18,10 @@
   </head>
 
   <body
-    class="font-body bg-white cursor-auto max-w-full px-2 container sm:container md:container lg:container xl:container"
+    class="font-varela antialiased px-4 bg-white cursor-auto max-w-full px-2 container"
   >
     <div
-      class="flex bg-white text-gray-800 p-4 my-2 border-blue-700 border-2 shadow-xs shadow-sm shadow-md shadow-lg shadow-xl shadow-2xl md:flex"
+      class="bg-white text-gray-800 p-4 my-2 border-blue-700 border-2 shadow-xs shadow-sm shadow-md shadow-lg shadow-xl shadow-2xl md:flex md:flex-wrap sm:flex sm:flex-wrap"
     >
       <nav class="flex flex-auto text-center text-xl space-x-4 md:flex">
         <a class="" href="#">wrench1815</a>
@@ -34,28 +34,32 @@
       </nav>
     </div>
     <!-- grid grid-cols-2 grid-rows-1  -->
-    <div class="flex bg-white my-4 border-2 border-green-600 shadow-lg">
+    <div
+      class="flex-wrap bg-white my-4 border-2 border-green-600 shadow-lg lg:flex md:flex md:flex-wrap sm:flex sm:flex-wrap"
+    >
       <!-- <div class="border-2 border-green-600 bg-blue-400 py-16 mx-20 shadow-2xl"> -->
       <h1
-        class="inline overflow-hidden text-center text-gray-900 text-4xl bg-teal-400 py-16 px-40"
+        class="text-center content-center text-gray-900 text-4xl bg-teal-400 py-16 lg:flex-1"
       >
         Welcome Visitor
       </h1>
       <!-- <div class="bg-black px-20 inline-flex"> -->
-      <h3 class="inline text-xl py-20 pl-4 text-blue-500">#</h3>
-      <div class="inline text-xl" id="welcome_texts">
-        <h3>Hi there</h3>
-        <h3>Welcome Mister or Miss...maybe...</h3>
-        <h3>Have a Nice Day!</h3>
-        <h3>So, you gonna Stay?</h3>
-        <h3>Programming <span style="color: #e25555;">&hearts;</span></h3>
-        <h3>This site is showing some of my Projects.</h3>
-        <h3>Eat Code Sleep Repeat.</h3>
-        <h3>Coding == Life</h3>
-        <h3>Coding is Fun!!</h3>
+      <div
+        class="text-xl text-center py-20 pl-1 text-blue-500 font-hack"
+        id="welcome_texts"
+      >
+        <h3># Hi there</h3>
+        <h3># Welcome Mister or Miss...maybe...</h3>
+        <h3># Have a Nice Day!</h3>
+        <h3># So, you gonna Stay?</h3>
+        <h3># Programming <span class="heart_col">❤️</span></h3>
+        <h3># This site is showing some of my Projects.</h3>
+        <h3># Eat Code Sleep Repeat.</h3>
+        <h3># Coding == Life</h3>
+        <h3># Coding is Fun!!</h3>
       </div>
       <span
-        class="inline text-xl text-center py-20 pl-1 text-blue-500 overflow-hidden"
+        class="text-xl text-center py-20 pl-2 text-blue-500 font-hack break-all flex flex-1 h-48 md:flex md:flex-wrap"
         id="welcome_texts_anim"
       ></span>
       <!-- </div> -->
@@ -71,8 +75,48 @@
     </div>
 
     <!-- Past Projects -->
-    <div class="inline-flex bg-white mt-4 p-20 border-2 border-orange-500">
-      <h2 class="text-3xl text-center">Past Projects</h2>
+    <div class="flex flex-wrap pt-8">
+      <div class="card_container flex flex-wrap m-auto">
+        <div class="card">
+          <h3 class="title text-xl">Tic Tac Toe</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+            <div>
+              <p>
+                A Project that me and my Friend worked on. Tic Tac Toe, a
+                Console based game.
+              </p>
+              <button
+                class="bg-transparent text-blue-dark font-semibold py-2 px-4 border border-blue-500 hover:border-transparent rounded hover:bg-blue-500 hover:text-white"
+              >
+                more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Card 2</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Card 3</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="title">Card 4</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="/js/type_text.js"></script>
   </body>
