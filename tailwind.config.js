@@ -2,8 +2,8 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: {
-      body: ['Varela', 'sans-serif'],
-      display: ['Varela', 'sans-serif'],
+      varela: ['Varela', 'sans-serif'],
+      hack: ['Hack', 'monospace'],
     },
     extend: {},
   },
