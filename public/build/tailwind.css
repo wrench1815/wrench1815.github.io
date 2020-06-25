@@ -17877,17 +17877,17 @@ video {
 @font-face {
   font-family: 'Hack';
 
-  /* src: url(../Hack/hack.css); */
+  src: url(../Hack/hack.css);
 
-  src: local('/Hack/hack.css');
+  /* src: local('/Hack/hack.css'); */
 }
 
 @font-face {
   font-family: 'Varela';
 
-  /* src: url(../Varela/styles.css); */
+  src: url(../Varela/styles.css);
 
-  src: local('/Varela/styles.css');
+  /* src: local('/Varela/styles.css'); */
 }
 
 .typed-cursor {
